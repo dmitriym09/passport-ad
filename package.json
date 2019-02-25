@@ -1,0 +1,40 @@
+{
+  "name": "passport-ntlm",
+  "version": "0.0.1",
+  "description": "Simple PassportJS strategy for NTLN auth in Active Directory Domain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --config nodemon.config.json test.js"
+  },
+  "keywords": [
+    "passport",
+    "passportjs",
+    "passport-strategy",
+    "auth",
+    "authentication",
+    "ntlm",
+    "active",
+    "directory",
+    "ldap",
+    "ad"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmitriym09/passport-ad.git"
+  },
+  "author": "dmitriym09",
+  "license": "MIT",
+  "devDependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "express-session": "^1.15.6"
+  },
+  "dependencies": {
+    "ad": "^0.3.2",
+    "uuid": "^3.3.2",
+    "passport": "^0.4.0",
+    "passport-strategy": "^1.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "verbose": true,
+    "watch": [
+        "index.js",
+        "test.js",
+        "strategy.js",
+        "./lib/adproxy.js",
+        "./lib/tobinary.js",
+        "./lib/asn1.js",
+        "./lib/cache.js",
+        "./lib/proxy.js"
+    ]
+}
