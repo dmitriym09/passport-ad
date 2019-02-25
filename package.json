@@ -1,5 +1,5 @@
 {
-  "name": "passport-ntlm",
+  "name": "passport-ad",
   "version": "0.0.1",
   "description": "Simple PassportJS strategy for NTLM auth in Active Directory Domain.",
   "main": "index.js",
